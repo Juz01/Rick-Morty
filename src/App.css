@@ -88,14 +88,7 @@ body {
     color: var(--letterTitle);
 }
 
-/* Divition's cards */
-.resident-container{
-    margin-left: 3rem;
-    margin-top: 10rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-    gap: 3rem;
-}
+
 
 
 

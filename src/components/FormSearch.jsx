@@ -33,10 +33,19 @@ const FormSearch = ({ setIdLocation }) => {
             type="text"
             ref={idLocationValue} />
           <button className="form__btn">Search</button>
+          <div className="form__popover">
+            <a href="#">
+              <h4 className="form__help">?</h4>
+            </a>
+            <div className="form__popover-content">
+              <p className="form__popover-message">ID are from 1 to 126</p>
+            </div>
+          </div>
       </form>
       {
         inputEmpty && <h3 className="alert-none">This field is required.❗</h3>
       }
+
     </>
   )
 }

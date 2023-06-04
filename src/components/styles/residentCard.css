@@ -44,6 +44,66 @@
     background-color: #ff0000;
 }
 
+/* Divition's cards */
+.resident-container{
+    margin-left: 3rem;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    gap: 3rem;
+}
+
+/* Card's info */
+.resident__body{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.resident__name{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.resident__hr{
+    width: 85%;
+    border: 1px var(--lineColor) solid;
+    border-radius: 0.1rem;
+}
+
+.resident__list{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.resident__label{
+    font-weight: 400;
+    margin-left: 3rem;
+    color: var(--cardSubTitle);
+}
+
+.resident__value{
+    margin-left: 2.3rem;
+    color: var(--letters);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,4 +115,6 @@
     --letters: #FBFBFB;
     --alive: #00ff00;
     --dead: #ff0000;
+    --lineColor: #084851;
+    --cardSubTitle: #7E7E7E;
 }
