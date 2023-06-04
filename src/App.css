@@ -1,0 +1,115 @@
+body {
+    background-color: var(--body);
+    color: var(--letters);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header's picture */
+.header__img{
+    max-width: 100vw;
+    width: 1440px;
+    height: 372px;
+    margin: auto;
+    position: relative;
+}
+
+.header__back{
+    position: absolute;
+    width: 1440px;
+    height: 372px;
+}
+
+.header__from{
+    width: 454px;
+    height: 176px;
+    position: absolute;
+    top: 48px;
+    left: 493px;
+}
+
+/* Alerts */
+.alert-wrong{
+    margin: auto;
+    margin-top: 4rem;
+    width: 500px;
+}
+
+.alert-none {
+    margin: auto;
+    margin-top: 4rem;
+    width: 250px;
+    font-size: 20px;
+}
+
+/* Information's box */
+.location__box{
+    margin: auto;
+    margin-top: 5rem;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem #a9a1a126;
+    background-color: var(--boxInfo);
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.location__title{
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    color: var(--titleColor);
+}
+
+.location__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.location__item{
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__span{
+    font-weight: 200;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--letterTitle);
+}
+
+/* Divition's cards */
+.resident-container{
+    margin-left: 3rem;
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    gap: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+:root {
+    --body: #05292E;
+    --letters: #FBFBFB;
+    --letterTitle: #b2acac
+    --boxInfo: #002126;
+    --titleColor:#1b781bfe;
+}

@@ -1,0 +1,54 @@
+.formSearch{
+    max-width: 1440px;
+    width: 370px;
+    height: 40px;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.form__input{
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    background-color: var(--inputColo);
+    color: var(--letter);
+}
+
+.form__btn{
+    width: 90px;
+    height: 40px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: var(--btnColor);
+    color: var(--inputColo);
+    cursor: pointer;
+}
+
+.form__btn:hover {
+    background-color:#1d931dcd ;
+}
+
+.form__btn:active {
+    background-color:#30bc30cd ;
+}
+
+
+
+
+
+
+
+
+/* .weather__btn:hover {
+    background-color: rgb(18, 18, 76.5);
+    transform: scale(1.05);
+} */
+
+:root {
+    --letter:  #000000;
+    --inputColo: #FBFBFB;
+    --btnColor: #30bc30cd;
+}
